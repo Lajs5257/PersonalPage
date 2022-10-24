@@ -1,8 +1,17 @@
-:root {
+/* Tema antiguo*/
+/*:root {
     --blanco: #ffffff;
     --oscuro: #212121;
     --primario: #FFC107;
     --secundario: #0097A7;
+    --gris: #757575;
+    --grisClaro: #DFE9F3;
+}*/
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #4f6d95;
+    --secundario: #6a9abf;
     --gris: #757575;
     --grisClaro: #DFE9F3;
 }
@@ -176,7 +185,7 @@ h1,h2,h3 {
 }
 .servicio h3 {
     color: var(--secundario);
-    font-weight: normal;
+    font-weight: bold;
 }
 .servicio p {
     line-height: 2;
@@ -210,7 +219,7 @@ h1,h2,h3 {
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
-    color: var(--primario);
+    color: var(--blanco);
 }
 
 @media (min-width: 768px) {
